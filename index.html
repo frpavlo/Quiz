@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app-container">
+    <div id="start-screen" class="screen ">
+        <h1>Не Логічні Логіки (memes)</h1>
+        <button id="start-btn">Почати</button>
+        <a href="https://www.youtube.com/watch?v=1vHjzFX4LsA" target="_blank">Не клікати</a>
+    </div>
+    <div id="quiz-screen" class="screen hide">
+        <div class="header">
+            <span id="timer">Час: 15</span>
+            <span id="score-display">Бали: 0</span>
+        </div>
+      <h2 id="question-text">Запитання 1</h2>
+      <div id="answers-container"></div>
+    </div>
+    <div id="result-screen" class="screen hide">
+        <h2>Квіз завершено!</h2>
+        <p id="result-text"></p>
+        <p id="brick-result"></p>
+        <button id="restart-btn">Спробувати ще</button>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
